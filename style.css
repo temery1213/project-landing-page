@@ -54,6 +54,15 @@ body {
     margin-left: 50px;
 }
 
+.heroText button {
+    width: 100px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 5px;
+}
+
 .heroBar img {
    display: flex;
    height: 300px;
@@ -74,7 +83,6 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     width: 50%;
-    padding-left: 25px;
 }
 
 
@@ -156,7 +164,8 @@ li {
     background-color: #3882f6;
     color: #e5e7eb;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    border-radius: 10px; 
     
 }
 
